@@ -6,6 +6,7 @@
    heroku login
    git add .
    git commit -m "add files"
+   heroku create coursera-react-hkust-server
    git push -f heroku master
    heroku ps:scale web=1
    heroku open
